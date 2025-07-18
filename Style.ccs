@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive;
+  background: linear-gradient(to bottom, #e9f5e2, #c4e1c1);
+  color: #2f4f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  background: #ffffffaa;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #a3d9a5;
+  text-align: center;
+}
+
+button {
+  background-color: #a2cf9b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #8cbf83;
+}
